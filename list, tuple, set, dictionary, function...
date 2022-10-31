@@ -1,0 +1,34 @@
+#list
+
+mylist1=["file","edit","view","insert",2002,211,]
+mylist2=["run time","tools","help","all changes saved",]
+print(type(mylist1))
+print(type(mylist2))
+print(len(mylist1))
+print(len(mylist2))
+print(mylist1)
+print(mylist2)
+
+#update
+mylist1[2]="nice"
+mylist2[0]="omg"
+print("the update value of mylist 1 :",mylist1)
+print("the update value of mylist 2 :",mylist2)
+
+#append
+mylist1.append(66)
+mylist2.append("ok")
+print("the append value of my list 1 :",mylist1)
+print("the append value of my list 2 :",mylist2)
+
+#insert
+mylist1.insert(2,"the value")
+mylist2.insert(2,33)
+print("the insert value of mylist 1 :",mylist1)
+print("the insert value of mylist 2 :",mylist2)
+
+#remove
+mylist1.remove("file")
+mylist2.remove("help")
+print("the removed value of mylist 1 :",mylist1)
+print("the removed value of mylist 2 :",mylist2)
