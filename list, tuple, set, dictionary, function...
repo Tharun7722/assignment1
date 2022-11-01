@@ -32,3 +32,10 @@ mylist1.remove("file")
 mylist2.remove("help")
 print("the removed value of mylist 1 :",mylist1)
 print("the removed value of mylist 2 :",mylist2)
+
+
+#complex
+real=2
+imag=5
+complex_number=complex(real,imag)
+print(complex_number)
